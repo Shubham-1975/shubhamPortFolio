@@ -53,7 +53,7 @@ const WebDevData = [
 const ProgrammingData = [
   {
     id:1,
-    imgsrc:'c',
+    imgsrc:c,
     title:'C'
   },
   {

@@ -1,6 +1,6 @@
 import React from "react";
 import imgshu from "../assets/images/shubhimg.png";
-import pdfr from "../../public/pdf/resume.pdf";
+import pdfr from "../../public/pdf/ShubhamResumeShuku.pdf";
 import { Typewriter } from "react-simple-typewriter";
 
 function Home() {

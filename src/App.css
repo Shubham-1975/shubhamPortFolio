@@ -212,6 +212,36 @@ transform: scale(1.5);
 .form input
 {
   background-color: rgb(19, 39, 73);
+  color: white;
+
+}
+
+.form input:focus
+{
+  background-color: rgb(19, 39, 73);
+  color: white;
+
+
+}
+
+.form textarea{
+  background-color: rgb(19, 39, 73);
+  color: white;
+
+}
+
+.form textarea::placeholder{
+  color: white;
+}
+
+.form textarea:focus{
+  background-color: rgb(19, 39, 73);
+  color: white;
+}
+
+.form input::placeholder
+{
+  color: white;
 }
 
 .social a 
@@ -241,4 +271,23 @@ transform: scale(1.5);
 .social li a:hover
 {
   transform: scale(1.2);
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: yellow;
+  border-radius: 50%;
+
+}
+
+::-webkit-scrollbar-track{
+  background-color: rgb(11, 26, 51);
+
+}
+
+.facebook{
+  color: blue;
 }

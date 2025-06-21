@@ -9,7 +9,11 @@ import { FaTwitterSquare } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
+import { CiFacebook } from "react-icons/ci";
+import { TiSocialFacebookCircular } from "react-icons/ti";
 
+
+import "../App.css";
 
 function Contact() {
   return (
@@ -43,13 +47,13 @@ function Contact() {
                 </li>
                 <div className="social fs-2 d-flex justify-content-between">
                   <li>
-                  <a href="" className="">
-              <FaFacebookSquare />
+                  <a href="" className="facebook">
+              <TiSocialFacebookCircular color="blue" />
             </a>
                   </li>
-                  <li>
+                  <li >
                     <a href="
-                    #"><FaWhatsapp /> </a>
+                    #" ><FaWhatsapp /> </a>
                   </li>
                   <li>
 
@@ -64,7 +68,7 @@ function Contact() {
             </a>
                   </li>
                   <li>
-                    <a href=""><FaGithub /></a>
+                    <a href=""><FaGithub  /></a>
                   </li>
                   <li>
                     <a href="#"><CiLinkedin /></a>
@@ -78,19 +82,19 @@ function Contact() {
           </div>
           <div className="mright col-xl-5 ">
             <h4>Send Message</h4>
-            <form>
+            <form className="form">
               <div class="mb-3 row ">
                 <div className="firstn col-xl-6 my-2">
                   <input
                     type="text"
-                    className="form-control text-danger"
+                    className="form-control"
                     placeholder="Enter First Name"
                   />
                 </div>
                 <div className="lname col-xl-6 my-2">
                   <input
                     type="text"
-                    className="form-control"
+                    className="form-control "
                     placeholder="Enter Last Name"
                   />
                 </div>
